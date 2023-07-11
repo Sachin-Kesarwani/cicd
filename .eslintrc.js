@@ -25,14 +25,8 @@ module.exports = {
     ecmaVersion: 'latest'
   },
   plugins: [
-    // 'react'
-    'eslint-plugin-react'
+    'react'
   ],
-  settings: {
-    react: {
-      version: 'detect'
-    }
-  },
   rules: {
     quotes: ['error', 'single']
   }
