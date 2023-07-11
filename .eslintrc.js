@@ -9,10 +9,10 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest'
   },
-  plugins: [
-    'react',
-    'eslint-plugin-react'
-  ],
+  // plugins: [
+  //   'react',
+  //   'eslint-plugin-react'
+  // ],
   rules: {
     quotes: ['error', 'single']
   }
