@@ -5,7 +5,7 @@ module.exports = {
     es2021: true
   },
   extends: [
-    
+    'standard',
     'plugin:react/recommended'
   ],
   overrides: [
@@ -25,8 +25,14 @@ module.exports = {
     ecmaVersion: 'latest'
   },
   plugins: [
-    'react'
+    // 'react'
+    'eslint-plugin-react'
   ],
+  settings: {
+    react: {
+      version: 'detect'
+    }
+  },
   rules: {
     quotes: ['error', 'single']
   }
