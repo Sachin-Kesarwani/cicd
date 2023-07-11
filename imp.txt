@@ -2,3 +2,19 @@ extends: [
     'standard',
     'plugin:react/recommended'
   ],
+
+
+
+   overrides: [
+    {
+      env: {
+        node: true
+      },
+      files: [
+        '.eslintrc.{js,cjs}'
+      ],
+      parserOptions: {
+        sourceType: 'script'
+      }
+    }
+  ]
