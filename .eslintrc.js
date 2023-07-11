@@ -4,10 +4,6 @@ module.exports = {
     commonjs: true,
     es2021: true
   },
-  extends: [
-    'standard',
-    'plugin:react/recommended'
-  ],
   overrides: [
     {
       env: {
